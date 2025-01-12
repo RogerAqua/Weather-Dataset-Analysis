@@ -33,7 +33,7 @@ The primary aim of this analysis is to explore the weather dataset comprehensive
 8. **Snow Analysis**<br/>
 • Find dates and corresponding temperatures where snow was recorded.<br/>
 
-9. **Temperature-Time Trend Visualization****<br/>
+9. **Temperature-Time Trend Visualization**<br/>
 • Create a graph to illustrate the variation of temperature over time.<br/>
 
 10. **Weather Condition Distribution Visualization**<br/>
