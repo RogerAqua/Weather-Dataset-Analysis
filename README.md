@@ -1,12 +1,14 @@
 # Weather Analysis Using Python
 
 # Introduction 
-This project focuses on analyzing a time-series weather dataset to uncover patterns and trends. By addressing specific data-related questions, the goal is to extract actionable insights from the data, such as identifying unique weather conditions, analyzing temperature variations, and summarizing key metrics like wind speed and visibility.
+This project focuses on analyzing a time-series weather dataset to uncover patterns and trends. By addressing specific data-related queries, the goal is to derive actionable insights from the data, such as identifying unique weather conditions, understanding temperature variations, and summarizing key metrics like wind speed and visibility. The analysis also emphasizes the importance of effective data visualization for better interpretation of results.
 
 # Dataset Overview
-The dataset used for this analysis contains hourly data from 2012, recording temperature, humidity, wind speed, pressure, and weather conditions. The analysis aims to explore this data for better understanding and visualization of weather trends.
+The dataset used for this analysis contains hourly data from 2012, capturing various weather-related attributes such as temperature, humidity, wind speed, atmospheric pressure, and weather conditions. It provides a foundation for exploring different weather phenomena and their impacts over time.
 
 # Objectives
+The primary aim of this analysis is to explore the weather dataset comprehensively to derive meaningful insights. By focusing on key metrics and trends, the analysis will address specific queries related to weather patterns, statistical summaries, and data visualizations. Below are the objectives:
+
 1. **Null Value Handling**<br/>
 • Identify and remove any null values present in the dataset to ensure data integrity.<br/>
 
