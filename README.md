@@ -1,75 +1,38 @@
-# Data_Analysis_on_Weather_Dataset
-Data Analysis on Weather Dataset using Python
-<!DOCTYPE html>
-<html>
+# Weather Analysis Using Python
 
-<body>
-<h2>Introduction</h2>
-<p>Data Analysis is one major part that you must master before learning or diving into the machine learning algorithms section because data analysis is a process to explore the data to get a better understanding of data.</p>
-<h2>Dataset Overview</h2>
-<p>The dataset we will use is a simple weather dataset which is a time-series dataset that stores the temperature, humidity, wind speed, etc on an hourly basis on different dates in 2012Load Dataset.</p>
-<h2>Load Dataset</h2>
-<p>You have the dataset and open the Jupyter Notebook or you can also create a Kaggle notebook over there itself. The first step is to import the necessary libraries and load the dataset into a notebook.</p>
-<h2>Basic Python Pandas Data Analysis Functions</h2>
-<h3>1. Shape</h3>
+# Introduction 
+This project focuses on analyzing a time-series weather dataset to uncover patterns and trends. By addressing specific data-related questions, the goal is to extract actionable insights from the data, such as identifying unique weather conditions, analyzing temperature variations, and summarizing key metrics like wind speed and visibility.
 
-  ```bash
- data.shape
-```
-  <h3>2. Data types</h3>
-  
-  ```bash
- data.dtypes
-```
+# Dataset Overview
+The dataset used for this analysis contains hourly data from 2012, recording temperature, humidity, wind speed, pressure, and weather conditions. The analysis aims to explore this data for better understanding and visualization of weather trends.
 
-<h3>3. Unique </h3>
-  
-   ```bash
- data['Weather'].unique()
-```
-  
-<h3>4. Count</h3>
-  
-   ```bash
- data.count()
-```
-  
-<h3>5. Value counts</h3>
-  
-   ```bash
- data['Weather'].value_counts()
-```
-  
-<h3>6.information</h3>
-  
-   ```bash
- data.info
-```
-  
-<h3>7.Describe</h3>
-  
-   ```bash
-data.describe()
-```
-  <br><br>
-<h2>Answering Different Data Analysis Problems</h2>
-<h3>Q1)To check if there are null values and drop them</h3>
-<h3>Q2) To find unique instances of weather types</h3>
-<h3>Q3) To rename column named 'Weather' to Weather Condition'</h3>
-<h3>Q4)To find all records from data of when the weather was exactly clear ?</h3>
-<h3>Q5)To find the mean temperature, wind speed and visibility?</h3>
-<h3></h3>
-<h3>Q6)To find the variance of pressure ?</h3>
-<h3>Q7) To Find the Days in which wind speed was more then 30km/h & temperature is greater then 0C?</h3>
-<h3>Q8) To find the date and temperatures for all instances when snow was recorded</h3>
-<h3>Q9) To display a graph of variation of temperature with respect to time ?</h3>
-<h3>Q10) To display a pie chart of percentages of weather conditions (pie chart)</h3>
-<br><br>
-<h2>Conclusion</h2>
-<p>Data analysis is a continuous process that represents how deep and better you represent your analysis to the client so the insights that can be used to drive business decisions are understandable.</p>
+# Objectives
+1. **Null Value Handling**
+• Identify and remove any null values present in the dataset to ensure data integrity.
 
-</body>
-</html>
+2. **Unique Weather Conditions Identification**
+• Determine all unique weather conditions recorded in the dataset.
 
-## References
-- [Kaggle.com](https://www.kaggle.com)
+3. **Column Renaming**
+• Rename the column 'Weather' to 'Weather Condition' for improved clarity.
+
+4. **Filtering Clear Weather Records**
+• Extract all data entries where the weather condition is exactly Clear.
+
+5. **Statistical Analysis**
+• Compute the mean values of temperature, wind speed, and visibility for summary statistics.
+
+6. **Pressure Variance Analysis**
+• Calculate the variance in atmospheric pressure across the dataset.
+
+7. **Wind Speed and Temperature Correlation**
+• Identify instances where wind speed > 30 km/h and temperature > 0°C.
+
+8. **Snow Analysis**
+• Find dates and corresponding temperatures where snow was recorded.
+
+9. **Temperature-Time Trend Visualization****
+• Create a graph to illustrate the variation of temperature over time.
+
+10. **Weather Condition Distribution Visualization**
+• Develop a pie chart to represent the percentage distribution of different weather conditions.
